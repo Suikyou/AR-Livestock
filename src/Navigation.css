@@ -1,0 +1,22 @@
+.navigation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navigation-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button,
+.back-button,
+.nav-link,
+.logout-button,
+.dashboard-link {
+  color: #000;
+  margin: 0 10px; 
+}

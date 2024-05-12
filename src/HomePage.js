@@ -1,13 +1,13 @@
-//import needed components
 import React from 'react';
+import './HomePage.css';
 
-const HomePage = () => {
+function HomePage() {
   return (
     <div className="home-container">
-      <p className="home-text">This is the home page</p>
-      {/* Home page usually just displays relevant information about the page */}
+      <img src="/background1.jpeg" alt="Home" className="home-image" />
+      <h1 className="home-text">Welcome to our app!</h1>
     </div>
   );
-};
+}
 
 export default HomePage;

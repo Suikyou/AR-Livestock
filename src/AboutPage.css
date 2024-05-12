@@ -1,0 +1,39 @@
+
+.AboutPage {
+    background-color: #98FB98;
+  }
+  
+  .container-about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px solid #7A5901;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 25%;
+    height: 765px;
+    
+
+  }
+  
+  .body-container {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .body-container p {
+    margin-bottom: 1rem;
+  }
+  
+  .body-container p {
+    margin-bottom: 1rem;
+  }
