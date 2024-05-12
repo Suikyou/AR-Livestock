@@ -1,1 +1,2 @@
-Try mo magtype dito, Jazo
+Try mo magtype dito, Jazo 
+who's in paris????
