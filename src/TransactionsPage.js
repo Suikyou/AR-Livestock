@@ -31,11 +31,6 @@ const TransactionsPage = () => {
           </div>
         </div>
       </div>
-
-      <div className="footer">
-        <p>© 2024 Your Company. All rights reserved.</p>
-      </div>
-
     </div>
   );
 };
