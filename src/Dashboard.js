@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Dashboard.css';
+import './CSS/Dashboard.css';
 
 const Dashboard = () => {
   const [modalText, setModalText] = useState("");
