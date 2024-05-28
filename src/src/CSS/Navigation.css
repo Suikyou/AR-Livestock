@@ -11,7 +11,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
   padding: 10px 20px; 
 }
 
@@ -38,9 +38,41 @@
 .back-button,
 .about-button,
 .transactions-button,
-.dashboard-button,
-.logout-button {
-  color: #000;
-  margin: 0 10px; 
+.dashboard-button {
+  background-color: #9AF764;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
+.back-button,
+.about-button,
+.transactions-button,
+.dashboard-button {
+  margin-right: 20px;
+}
+
+.logout-button {
+  background-color: rgb(255, 0, 0);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: rgb(255 127 127);
+}
+
+.login-button:hover,
+.back-button:hover,
+.about-button:hover,
+.transactions-button:hover,
+.dashboard-button:hover {
+  background-color: lightgreen;
+}

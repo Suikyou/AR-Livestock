@@ -29,6 +29,8 @@ const LoginPage = () => {
           />
           <button onClick={handleLogin}>Login</button>
           <p>Forgot your password? Click <a href="#">here</a>.</p>
+
+          <button onClick={handleLogin}>Be a Seller</button>
         </div>
       </div>
         
